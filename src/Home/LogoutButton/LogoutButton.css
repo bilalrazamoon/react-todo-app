@@ -1,0 +1,16 @@
+.LogoutButton {
+  background-color: tomato;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  outline: none;
+}
+
+.LogoutButton:hover {
+  background-color: rgb(226, 64, 35);
+}
+
+.LogoutButton:active {
+  background-color: rgb(219, 47, 16);
+}

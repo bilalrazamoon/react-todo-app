@@ -1,0 +1,88 @@
+.Todos {
+  max-width: 800px;
+  margin: auto;
+}
+
+.Todos form {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Todos form input {
+  flex: 1;
+  margin: 0;
+  min-width: 100px;
+  color: black;
+  outline: none;
+  background: none;
+  padding: 16px;
+  font-size: 24px;
+  line-height: 32px;
+  border: 2px solid darkgoldenrod;
+  border-radius: 20px 0 0 20px;
+  border-right: 0;
+}
+
+.Todos form input:focus {
+  background-color: #ddd;
+}
+
+.Todos form button {
+  flex: none;
+  margin: 0;
+  padding: 16px 24px;
+  font-size: 24px;
+  line-height: 32px;
+  color: white;
+  outline: none;
+  background-color: darkgoldenrod;
+  border: 2px solid darkgoldenrod;
+  border-radius: 0 20px 20px 0;
+  border-left: none;
+}
+
+.Todos form button:hover {
+  background-color: rgb(155, 114, 11);
+}
+
+.Todos form button:active {
+  background-color: rgb(116, 85, 7);
+}
+
+.Todos .list {
+  display: flex;
+  flex-direction: column;
+}
+
+.Todos .item {
+  margin-bottom: 20px;
+}
+
+.Todos .item a {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: darkgoldenrod;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.Todos .item a span {
+  font-size: 24px;
+  color: white;
+}
+
+.Todos .item a button {
+  margin: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 30px;
+  background-color: darkolivegreen;
+  border: none;
+  font-size: 20px;
+  color: white;
+  outline: none;
+}

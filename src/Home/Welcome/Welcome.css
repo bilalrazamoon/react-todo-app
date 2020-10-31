@@ -1,0 +1,20 @@
+.Welcome {
+  background-color: brown;
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.Welcome h2 {
+  margin: 0;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.Welcome p {
+  margin: 0;
+  font-size: 16px;
+}
